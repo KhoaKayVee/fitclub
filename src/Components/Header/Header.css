@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-logo {
+    width: 10rem;
+    height: 3rem;
+}
+
+.header-items {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.header-item:hover {
+    cursor: pointer;
+    color: var(--orange);
+    transition: 0.6s;
+    padding-left: 8px;
+}
